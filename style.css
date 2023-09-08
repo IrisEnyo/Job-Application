@@ -68,3 +68,11 @@ h3 {
 .profession::after {
   content: "🦷🪥💃👩‍💻";
 }
+
+.job {
+  display: inline-block;
+}
+
+.period {
+  display: inline-block;
+}
