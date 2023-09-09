@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -23,22 +24,22 @@ h3 {
 /* specific style */
 
 .header {
-  padding: 60px 16px;
+  padding: 3rem 1rem;
   text-align: center;
   background-color: lightsalmon;
   position: relative;
 }
 
 .main {
-  padding: 16px;
-  padding-left: 100px;
-  padding-right: 100px;
-  max-width: 800px;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
 .nav {
-  padding: 4px 10px;
+  padding: 0.2rem 0.5rem;
   color: rgb(82, 70, 70);
 }
 
@@ -53,15 +54,15 @@ h3 {
 }
 
 .nav + .nav {
-  margin-left: 40px;
+  margin-left: 2rem;
 }
 
 .main > * + * {
-  margin-top: 55px;
+  margin-top: 2.25rem;
 }
 
 .main > * {
-  border-top: 2px solid lightsalmon;
+  border-top: 0.1rem solid lightsalmon;
 }
 
 .main > *:first-child {
@@ -82,15 +83,19 @@ h3 {
 
 .headings {
   position: relative;
-  left: -20px;
+  left: -1rem;
 }
 
 .hireme {
   position: absolute;
   color: rgb(82, 70, 70);
   background: palevioletred;
-  border-radius: 4px;
-  padding: 8px;
-  top: 10px;
-  right: 10px;
+  border-radius: 0.25rem;
+  padding: 0.35rem;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.head {
+  font-size: 2rem;
 }
