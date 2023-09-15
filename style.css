@@ -39,6 +39,19 @@ h3 {
   margin: 0 auto;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .navigation {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 .nav {
   padding: 0.2rem 0.5rem;
   color: rgb(82, 70, 70);
@@ -80,6 +93,20 @@ h3 {
 
 .period {
   display: inline-block;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .experience-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 .headings {
@@ -130,14 +157,20 @@ h3 {
   }
 }
 
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 22px;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .hireme {
     position: fixed;
   }
 }
 
-@media screen and (minwidth: 300px) {
+@media screen and (min-width: 300px) {
   .main > * + * {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 }
