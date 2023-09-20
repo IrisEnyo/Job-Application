@@ -78,6 +78,8 @@ h3 {
 .nav {
   padding: 0.2rem 0.5rem;
   color: var(--background-color-selection);
+  transition: background-color 0.5s linear, color 0.5s linear;
+  border-radius: 5rem;
 }
 
 .nav:hover {
@@ -88,6 +90,15 @@ h3 {
 .nav:active {
   color: var(--main-color);
   background-color: var(--nav-link-activ-bg-color);
+}
+
+.nav:visited {
+  color: var(--main-color);
+  background-color: var(--nav-link-activ-bg-color);
+}
+
+.nav:focus {
+  outline-style: dotted;
 }
 
 .nav + .nav {
