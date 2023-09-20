@@ -83,7 +83,6 @@ h3 {
 .nav:hover {
   color: var(--text-color);
   background-color: var(--nav-link-hover-bg-color);
-  border-radius: 5rem;
 }
 
 .nav:active {
