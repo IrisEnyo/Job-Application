@@ -57,8 +57,7 @@ h3 {
 .header:hover .hireme,
 .header:focus-within .hireme {
   opacity: 1;
-  transform: rotate(-360deg);
-  font-size: 1.5rem;
+  transform: scale(1.5);
 }
 
 .hireme {
@@ -163,9 +162,25 @@ h3 {
   }
 }
 
+.main-article {
+  border-top: 0.125rem solid var(--background-color);
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .main-article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+}
+
 .headings {
   position: relative;
   left: -1rem;
+}
+
+.main-article-content {
+  margin-top: 4rem;
 }
 
 .head {
